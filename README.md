@@ -7,7 +7,7 @@ To build you have to get the Fmod source code, namely the inc folder and place i
 With the cmd of your choice go to the repository and then:
 
 ```
- cmake -S <desiredplugin> -B Builds
+ cmake -S <desiredplugin>/CMake -B Builds
  cd Builds
  make  
 ```
