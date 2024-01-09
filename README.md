@@ -8,6 +8,5 @@ With the cmd of your choice go to the repository and then:
 
 ```
  cmake -S <desiredplugin>/CMake -B Builds
- cd Builds
- make  
+ make -C Builds 
 ```
